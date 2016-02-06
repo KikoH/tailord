@@ -15,6 +15,7 @@ html, body {
 
 body {
     background-color: rgb(255, 250, 240);
+    font-family: 'americanTypwriter';
 }
 
 #main-container {
@@ -42,12 +43,12 @@ body {
     height: 130px;
 }
 
-p {
-    font-family: 'americanTypwriter';
+a , .phone {
+    color: rgb(195, 162, 162);
 }
 
-a , span {
-    color: rgb(195, 162, 162);
+.phone {
+    text-decoration: none;
 }
 
 .social {
