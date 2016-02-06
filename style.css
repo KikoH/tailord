@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'cursiveFlourish';
+    src: url('./fonts/CursiveFlourish.ttf');
+}
+
+@font-face {
+    font-family: 'americanTypwriter';
+    src: url('./fonts/AmericanTypewriterRegular.ttf');
+}
+
+body {
+    background-color: rgb(255, 250, 240);
+}
+
+#main-container {
+    width: 520px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+.coming-soon {
+    font-family: 'cursiveFlourish';
+    font-size: 60px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.seperator {
+    width: 450px;
+    height: 130px;
+}
+
+.p {
+    font-family: 'americanTypwriter';
+}
+
+a , span {
+    color: rgb(195, 162, 162);
+}
+
+.social {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social>li {
+    display: inline-block;
+}
+
+.social li a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-size: 23px;
+}
